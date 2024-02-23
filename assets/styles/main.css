@@ -48,7 +48,7 @@ ol {
 
 h1 {
   color: hsl(24, 5%, 18%);
-  font-size: 2.5em;
+  font-size: 1.2rem;
 }
 h2 {
   color: hsl(14, 45%, 36%);
@@ -110,4 +110,15 @@ h3 {
 table {
   width: 100%;
   border-collapse: collapse;
+}
+
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
